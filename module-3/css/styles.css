@@ -1,59 +1,41 @@
+*{
+	box-sizing: border-box;
+}
 body{
-	background-color: #d0d0e1;
+	font-family: monospace;
 }
-#header-nav{
-	background-color:   #5a5a8c ;
-	border-radius: 0;
-	border: 0;
+a.navbar-brand h1{
+	font-weight: 600;
+	font-size: 1.1em;
 }
-
-div.container{
-	align-items: left;
-	padding: 0;
+#ul-nav{
+	background-color: rgb(0, 160, 139);
 }
-
-.navbar-brand{
-	padding-top: 25px;
+#togglebtn {
+    background-color: green;
 }
-
-div.navbar-brand{
-	margin-left: -190px;
+#ul-nav li{
+	box-shadow: 0 0 5px rgba(255,255,255,0.5);
+	font-weight: 600;
 }
-
-.navbar-brand h1{
-	font-family: 'Lora' , serif;
-	font-size: 1.5em;	
-	color: #ffffff;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: .75;
-	text-align: left;
+#ul-nav li a{
+	color: white;
 }
-
-.navbar-header button.navbar-toggle,.navbar-header,.icon-bar{
-	border: 1px solid #ffffff;
-
+#ul-nav li:hover{
+	background-color: rgb(108, 25, 12);
 }
-.navbar-header button.navbar-toggle{
-	padding: 10px auto 10px;
-	}
-
-button.navbar-toggle.collapsed{
-	margin-left: 10px;
+#center-title{
+	padding: 30px 0;
+	font-size: 30px;
+	margin: 0;
 }
-
-#main-content{
-	color: black;
-	height:1000px;
+h3{
+	font-size: 20px;
+	font-weight: 600;
 }
-
-h2{
-	text-align: center;
-}
-
-p{
-	padding: 20px;
+.menu{
+	background-color: rgb(15, 122, 25);
+	margin: 20px;
+	padding: 25px;
+	color: white;
 }
